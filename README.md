@@ -61,6 +61,9 @@ An easy-pluggable and configurable api for user authentication.
 ## todo
 
 [ ] setup django project
-[ ] setup a dummy model and provide api 
+
+[ ] setup a dummy model and provide api
+
 [ ] polish api keeping frontend in mind
+
 [ ] test the integration with a dummy project
