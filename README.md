@@ -4,6 +4,27 @@ An easy-pluggable and configurable api for user authentication.
 ![security agent](https://img-aws.ehowcdn.com/340x221p/photos.demandstudios.com/getty/article/110/25/86512177.jpg)
 
 
+### setup
+
+#### Docker
+
+- install [docker](https://docs.docker.com/)
+
+- build image
+```bash
+docker build -t auth-app .
+```
+
+- run image to see it running in localhost:8000
+
+```bash
+docker run -d -p 8000:8000 auth-app
+```
+
+
+
+
+
 
 ## inception
 
@@ -58,6 +79,8 @@ An easy-pluggable and configurable api for user authentication.
 
 
 
+
+
 ## todo
 
 [ ] setup django project
@@ -67,3 +90,7 @@ An easy-pluggable and configurable api for user authentication.
 [ ] polish api keeping frontend in mind
 
 [ ] test the integration with a dummy project
+
+
+## commands
+ see doc/commands.md
