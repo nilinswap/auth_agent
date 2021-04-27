@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'proj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'authagent',
+        'NAME': 'template_database',
         'USER': 'authagent',
         'PASSWORD': 'authagent',
         'HOST': 'localhost',
